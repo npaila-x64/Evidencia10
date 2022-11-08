@@ -4,11 +4,11 @@ public class Gato extends Mascota {
 	private String caracter;
 
 	public void morder() {
-		throw new UnsupportedOperationException();
+		System.out.println("muerde!");
 	}
 
 	public void rasgunar() {
-		throw new UnsupportedOperationException();
+		System.out.println("rasguña!");
 	}
 
 	public void setCaracter(String caracter) {

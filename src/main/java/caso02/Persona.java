@@ -43,8 +43,7 @@ public class Persona {
 	 * @param casa
 	 */
 	public void addCasaDeArriendo(Casa casa) {
-		// TODO - implement Persona.addCasaDeArriendo
-		throw new UnsupportedOperationException();
+		this.arriendo = casa;
 	}
 
 }
