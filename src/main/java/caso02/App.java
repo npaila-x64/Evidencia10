@@ -66,5 +66,8 @@ public class App {
         motoDeAgustin.setModelo("Kawasaki Ninja ZX 6R 636");
 
         andrea.setMoto(motoDeAndrea);
+
+        francisco.addAmigo(andrea);
+        andrea.addAmigo(francisco);
     }
 }
